@@ -18,9 +18,6 @@ def load_finished():
     QApplication.exit()
 
 def md2html(_fileName):
-
-	
-	
 	md=markdown.Markdown()
 	tmpText = u'<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"></head><body>' 
 	text=""
@@ -47,8 +44,12 @@ def html2pdf():
 	
 	sys.exit(app.exec_())
 
-	
-if __name__=="__main__":
-	param=sys.argv	
+def main():
+	global param
 	md2html(param[1])
 	html2pdf()
+	
+if __name__=="__main__":
+	param=sys.argv
+	main()
+	
