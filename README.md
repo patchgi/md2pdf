@@ -1,5 +1,5 @@
 # md2pdf
-マークダウンをPDFに変換するスクリプト（授業ノート用）
+MarkdownファイルをPDFに変換するスクリプト（授業ノート用）
 
 適当にbrewとか使ってPyQt4,pip使ってmarkdownをインストールして
 
