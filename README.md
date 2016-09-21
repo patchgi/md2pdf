@@ -1,8 +1,10 @@
 # md2pdf
-MarkdownファイルをPDFに変換するスクリプト（授業ノート用）
+##環境
+Python2.7.10
+PyQt4
+markdown
 
-適当にbrewとか使ってPyQt4,pip使ってmarkdownをインストールして
+##Usage
 
-`python app.py {変換するmdファイル}`
+`python app.py {your markdown file}`
 
-みたいな感じに実行するとできる。
