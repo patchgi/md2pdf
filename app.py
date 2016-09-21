@@ -21,7 +21,7 @@ def load_finished():
 
 def md2html(_fileName):
     md = markdown.Markdown()
-    tmpText =u'<html><head><meta http-equiv="Content-Type"content="text/html;harset=UTF-8"></head><body>'
+    tmpText = u'<html><head><meta http-equiv="Content-Type"content="text/html;harset=UTF-8"></head><body>'
     text = ""
     for i in open(_fileName, "r"):
         text += unicode(i, 'utf-8')
